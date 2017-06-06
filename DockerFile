@@ -1,0 +1,4 @@
+FROM ubuntu:latest
+MAINTAINER Balaji Ganesan <balajig18@gmail.com>
+COPY startup.sh /startup.sh
+CMD ["/startup.sh"]
